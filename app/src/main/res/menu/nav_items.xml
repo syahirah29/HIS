@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_food"
+        android:icon="@drawable/food"
+        android:title="@string/nav_food" />
+    <item
+        android:id="@+id/nav_attractions"
+        android:icon="@drawable/attractions"
+        android:title="@string/nav_attractions" />
+    <item
+        android:id="@+id/nav_itinerary"
+        android:icon="@drawable/itinerary"
+        android:title="@string/nav_itinerary" />
+    <item
+        android:id="@+id/nav_prayer"
+        android:icon="@drawable/prayer"
+        android:title="@string/nav_prayer" />
+</menu>

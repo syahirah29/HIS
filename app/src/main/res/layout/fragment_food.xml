@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodFragment"
+    android:background="@color/colorPrimaryLight"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+
+        <ImageButton
+            android:id="@+id/main_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:background="@color/colorPrimaryLight"
+            android:onClick="main_food"
+            android:padding="20dip"
+            android:layout_gravity="center"
+            android:src="@drawable/main_dish" />
+
+        <ImageButton
+            android:id="@+id/fast_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryLight"
+            android:src="@drawable/fastfood"
+            android:onClick="fast_food"
+            android:layout_gravity="center"
+            android:padding="20dip"
+            android:layout_marginTop="20dip"/>
+
+        <ImageButton
+            android:id="@+id/street_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/colorPrimaryLight"
+            android:onClick="street_food"
+            android:layout_gravity="center"
+            android:padding="20dip"
+            android:src="@drawable/streetfood" />
+
+
+
+</LinearLayout>

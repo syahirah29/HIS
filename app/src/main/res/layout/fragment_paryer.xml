@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ParyerFragment"
+    android:background="@color/colorPrimaryLight"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_centerInParent="true" >
+
+
+
+    <ImageButton
+        android:id="@+id/prayer_times"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:background="@color/colorPrimaryLight"
+        android:onClick="prayer_times"
+        android:padding="20dip"
+        android:layout_gravity="center"
+        android:src="@drawable/prayer_times" />
+
+    <ImageButton
+        android:id="@+id/prayer_places"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryLight"
+        android:src="@drawable/prayer_places"
+        android:onClick="prayer_places"
+        android:layout_gravity="center"
+        android:padding="20dip"
+        android:layout_marginTop="20dip"/>
+
+    <ImageButton
+        android:id="@+id/prayer_direction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/colorPrimaryLight"
+        android:onClick="prayer_direction"
+        android:layout_gravity="center"
+        android:padding="20dip"
+        android:src="@drawable/prayer_direction" />
+
+
+
+</LinearLayout>
